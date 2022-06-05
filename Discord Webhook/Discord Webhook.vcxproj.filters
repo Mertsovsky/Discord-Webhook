@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ac2df2e7-9c45-408d-b70b-de9db5b00774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nlohmann">
+      <UniqueIdentifier>{064d58f1-352f-4fa7-8d03-d797b497f55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\discord">
+      <UniqueIdentifier>{dc4bdbb6-82ed-4dea-ace6-2698ce5e6120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities">
+      <UniqueIdentifier>{13af556b-3069-4316-b418-e89e4b74101a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imgui">
+      <UniqueIdentifier>{5dfd8b42-9960-40b8-acc1-f85af19b18ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\overlay">
+      <UniqueIdentifier>{384f44a6-819d-4368-900e-f27cb161ccaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc">
+      <UniqueIdentifier>{7203bfd2-2c9d-4aed-b99d-4e9e910e0988}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nlohmann\json.hpp">
+      <Filter>src\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\embed.h">
+      <Filter>src\discord</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\webhook.h">
+      <Filter>src\discord</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\helper.h">
+      <Filter>src\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_dx9.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_win32.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\overlay\menu.h">
+      <Filter>src\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\overlay\verdana.h">
+      <Filter>src\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc\cvars.h">
+      <Filter>src\misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord\webhook.cpp">
+      <Filter>src\discord</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\helper.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_dx9.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_win32.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\overlay\menu.cpp">
+      <Filter>src\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc\cvars.cpp">
+      <Filter>src\misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
