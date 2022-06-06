@@ -248,15 +248,15 @@ namespace wavvve::overlay {
 		}
 
         namespace utils {
-            void calc_window_size( ImVec2 &size ) {
-                size.x = ( GImGui->CurrentWindow->Size.x - 16.f * 4.f ) * 0.5f;
-                size.y = GImGui->CurrentWindow->Size.y - ImGui::GetCursorPosY() - 24.f;
-            }
+              void calc_window_size( ImVec2 &size ) {
+                  size.x = ( GImGui->CurrentWindow->Size.x - 16.f * 4.f ) * 0.5f;
+                  size.y = GImGui->CurrentWindow->Size.y - ImGui::GetCursorPosY() - 24.f;
+              }
 
-			int64_t create_hex_from_color( int r, int g, int b ) {
-				return ( ( r & 0xff ) << 16 ) + ( ( g & 0xff ) << 8 ) + ( b & 0xff );
-			}
-        }
+	      int64_t create_hex_from_color( int r, int g, int b ) {
+		return ( ( r & 0xff ) << 16 ) + ( ( g & 0xff ) << 8 ) + ( b & 0xff );
+	      }
+           }
 	}
 
 	void SetupStyle() {
